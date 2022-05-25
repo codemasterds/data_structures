@@ -1,0 +1,11 @@
+we use the mathematical functions to determine the Big- O notation.
+
+we can use the graph between time and input size to determine the equation and get what is the big-o notation for that program. 
+
+For Big-O notation we have to keep the fastest growing term and drop the constants.
+
+Big-O notation is generally to used in the worst case senario. For example we complete the search in the first iteration itself!
+
+> values in Arrays are stored at a single memory location, but in linkedlist values are stored in differnt location and linked with pointers!
+
+>
