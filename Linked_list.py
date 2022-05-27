@@ -29,6 +29,7 @@ class LinkedList:
 
         itr=self.head
         while itr:
+            #print(count,itr,itr.data)
             count=count+1
             itr=itr.next
         return count
@@ -116,18 +117,19 @@ if __name__=='__main__':
     # ll.insert_at_beginning(3)
     # ll.insert_at_beginning(4)
     # ll.print_list()
-    # print(ll.linkedlist_length())
+    ll.insert_values([1,2,3,6,4,5,999])
+    print(ll.linkedlist_length())
     # ll.insert_at_end(10)
     # ll.print_list()
-    ll.insert_values([1,2,3,6,4,5,999])
-    ll.print_list()
-    #ll.remove_at_index(0)
-    ll.print_list()
-    ll.insert_value_at(3,111)
-    ll.print_list()
-    ll.insert_After_value(6,6666)
-    ll.print_list()
-    ll.remove_by_value(1)
-    ll.print_list()
+    # ll.insert_values([1,2,3,6,4,5,999])
+    # ll.print_list()
+    # #ll.remove_at_index(0)
+    # ll.print_list()
+    # ll.insert_value_at(3,111)
+    # ll.print_list()
+    # ll.insert_After_value(6,6666)
+    # ll.print_list()
+    # ll.remove_by_value(1)
+    # ll.print_list()
 
 
